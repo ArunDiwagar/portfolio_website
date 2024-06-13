@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+        
+            <ul id="sidemenu">
+                <li>
+                    <a href="#header">Home</a>
+
+                </li>
+                <li>
+                    <a href="#about">About</a>
+
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+
+                </li>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+
+                </li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+           <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Ui/Ux Designer</p>
+            <h1>Hi, I'm  <span>Arun </span><br>from India</h1>
+        </div>
+    </div>
+   </div> 
+<!---- ------------------about--------------------- --->
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minus eos quas facere asperiores nulla praesentium ipsa, doloribus ad facilis vel laudantium hic fuga animi veritatis aliquid assumenda libero deserunt nesciunt excepturi quidem! Facilis, odit et? Saepe, eaque! Distinctio magnam at eum ducimus soluta. Eveniet culpa repellat dicta aut voluptatum!
+                </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experences</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Desiging Web/App interface</li>
+                    <li><span>Web Development</span><br>Web App Development</li>
+                    <li><span>App Development</span><br>Building Android/ios apps</li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="experience">
+                <ul>
+                    <li><span>UI/UX</span><br>1 year</li>
+                    <li><span>Web Development</span><br>3 year</li>
+                    <li><span>App Development</span><br>5 year</li>
+                </ul>
+            </div>
+            <div class="tab-contents " id="education">
+                <ul>
+                    <li><span>12 th</span><br>SJMHSS</li>
+                    <li><span>BCA</span><br>SJCAS</li>
+                    <li><span>MCA </span><br>RGCET</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+   </div>
+ <!-- -------------------services----------------- -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titles">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum quaerat dolore soluta reiciendis sit, obcaecati cum consequatur repudiandae temporibus unde rem nobis, aliquid eaque numquam laborum neque aspernatur quasi.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shuttle-space"></i>
+                <h2>UI/Ux design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum quaerat dolore soluta reiciendis sit, obcaecati cum consequatur repudiandae temporibus unde rem nobis, aliquid eaque numquam laborum neque aspernatur quasi.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-meteor"></i>
+                <h2>App design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere earum quaerat dolore soluta reiciendis sit, obcaecati cum consequatur repudiandae temporibus unde rem nobis, aliquid eaque numquam laborum neque aspernatur quasi.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------- portfolio ------------------>
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>social media app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae repellat totam saepe. Explicabo harum aperiam ipsa, pariatur magni sint atque eum quas eaque veniam sit sed in veritatis corporis!</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae repellat totam saepe. Explicabo harum aperiam ipsa, pariatur magni sint atque eum quas eaque veniam sit sed in veritatis corporis!</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>online shopping app</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa vitae repellat totam saepe. Explicabo harum aperiam ipsa, pariatur magni sint atque eum quas eaque veniam sit sed in veritatis corporis!</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!-- --------------------contact--------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+            <div class="social-icons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href=""download  class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form action="">
+                <input type="text" name="name"  placeholder="your Name" required>
+                <input type="email" name="email" placeholder="Your Email "required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright arun .made with <i class="fas fa-heart"></i>&nbsp;by easy tutuorials</p>
+    </div>
+</div>
+
+
+
+
+
+   <script>
+    var tablinks=document.getElementsByClassName('tab-links');
+    var tabcontents=document.getElementsByClassName('tab-contents');
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link');
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabname).classList.add('active-tab');
+
+        }
+    }
+   </script>
+
+   <script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ='0';
+    }
+    function closemenu(){
+        sidemenu.style.right='-200px';
+    }
+   </script>
+</body>
+</html>
